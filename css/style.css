@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.bg-cella{
+    background-color: rgb(0, 144, 211);
+}
+.container{
+    padding: 2rem;
+    text-align: center;
+    
+}
+button{
+    font-size: larger;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: red;
+    border-radius: 25px;
+    margin-bottom: 3rem;
+}
+.celle{
+    border: 2px solid black;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-griglie{
+    display: flex;
+    flex-wrap: wrap;
+}
